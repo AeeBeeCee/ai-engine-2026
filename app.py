@@ -2,8 +2,8 @@ import os
 os.environ["GOOGLE_API_KEY"] = "AIzaSyCrvl1HVL4yt4tuFS2e0uGRtVcgCGOJkkA"
 
 import streamlit as st
-from engine.news_agent import fetch_news
-from engine.writer_agent import generate_all_posts
+from news_agent import fetch_news
+from writer_agent import generate_all_posts
 
 st.set_page_config(page_title="2026 Verified AI Engine", layout="wide")
 
